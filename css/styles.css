@@ -110,7 +110,7 @@ a:active, a:hover, a:link, a:visited, a:focus {
 /* BODY */
 #whole-body{
     /* border: 1px solid black; */
-    min-height: calc(100vh - 100px);
+    min-height: calc(100vh - 200px);
     }
 
 #body{
@@ -199,13 +199,13 @@ a:active, a:hover, a:link, a:visited, a:focus {
 
 #body2 {             
     /* border: 1px solid blue; */
-    margin-top: 20px; margin-bottom: 20px;
-    height: 250px;
+    margin-top: 20px; margin-bottom: 0px;
+    height: 350px;
     
         }
         .body-gallery{
             display: grid; grid-template-columns: 1fr 1fr 1fr 1fr;
-            height: inherit; 
+            height: 250px; 
             /* border:1px solid black; */
             }
         .photo{
@@ -219,8 +219,13 @@ a:active, a:hover, a:link, a:visited, a:focus {
             margin: 10px; background-color: darkslategray; opacity: 70%; color: white;
             }
  
-        
 
+#banner{
+    position: relative; display: grid; text-align: center; vertical-align:center;
+}
+.banner{
+    width: 150px; border: solid gray 0.2px;
+}
 
 /* SUBPAGES */
 #chest{margin-top:200px; text-align: center; vertical-align:center; padding:0px;
