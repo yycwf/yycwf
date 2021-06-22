@@ -110,7 +110,7 @@ a:active, a:hover, a:link, a:visited, a:focus {
 /* BODY */
 #whole-body{
     /* border: 1px solid black; */
-    min-height: calc(100vh - 200px);
+    min-height: calc(100vh - 200px); text-align: center;
     }
 
 #body{
@@ -229,7 +229,7 @@ a:active, a:hover, a:link, a:visited, a:focus {
 
 /* SUBPAGES */
 #chest{margin-top:200px; text-align: center; vertical-align:center; padding:0px;
-    max-height: 300px; min-width: 1000px;}
+    max-height: 300px; min-width: 1000px; margin-bottom: 50px;}
 #sub-ttl {
      padding: 10px; font-size: 40px; font-weight: bold; color: #3e3e3e;
     }
